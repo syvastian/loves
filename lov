@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>HOME</title>
+	<style>
+		ul {
+			list-style-type: none;
+			margin: 0;
+			overflow: hidden;
+			padding: 0;
+			background-color: black;
+	}
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 15px 15px;
+			text-decoration: none;
+	}
+		li {
+			float: left;
+	}
+		li a:hover {
+			background-color: #4cae51;
+	}
+		.active {
+			background-color: #4cae51;
+	}
+</style>
+<body>
+	<ul>
+		<li> <a href="active" href="">Home </a>
+		<li> <a href=""> About </a>
+		<li> <a href=""> Contact </a>
+</body>
+ </html>
